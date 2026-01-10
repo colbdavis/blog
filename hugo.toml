@@ -6,3 +6,8 @@ theme = 'PaperMod'
 [params]
     defaultContentLanguage = "en"
     displayFullLangName = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # This allows HTML inside your Markdown files
